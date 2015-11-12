@@ -87,8 +87,14 @@
             {
               "type": "kendo-ui-mobile:field",
               "name": "shadeStyle",
-              "title": "Shade Style Desired",
+              "title": "Shade style desired",
               "inputType": "dropdownlist"
+            },
+            {
+              "type": "kendo-ui-mobile:field",
+              "name": "seed",
+              "title": "Valance seed",
+              "inputType": "number"
             }
           ],
           "name": "calculatorModel",

@@ -10,6 +10,7 @@ app.calculator = kendo.observable({
 (function(parent) {
     var calculatorModel = kendo.observable({
         fields: {
+            seed: '',
             shadeStyle: '',
             edgeAllowance: '',
             vertical: '',
