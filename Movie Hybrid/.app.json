@@ -1,4 +1,126 @@
 {
   "type": "kendo-ui-mobile",
-  "isNew": true
+  "views": [
+    {
+      "type": "kendo-ui-mobile:view",
+      "name": "homeView",
+      "components": [],
+      "title": "Overview",
+      "addToNavigation": true,
+      "icon": "home"
+    },
+    {
+      "type": "kendo-ui-mobile:view",
+      "name": "eBook",
+      "components": [],
+      "title": "eBook",
+      "addToNavigation": true,
+      "icon": "bookmarks"
+    },
+    {
+      "type": "kendo-ui-mobile:view",
+      "name": "calculator",
+      "components": [
+        {
+          "type": "kendo-ui-mobile:form",
+          "components": [
+            {
+              "type": "kendo-ui-mobile:field",
+              "name": "width",
+              "title": "Width of Shade",
+              "inputType": "number"
+            },
+            {
+              "type": "kendo-ui-mobile:field",
+              "name": "length",
+              "title": "Shade Length",
+              "inputType": "number"
+            },
+            {
+              "type": "kendo-ui-mobile:field",
+              "name": "quantity",
+              "title": "Quantity desired",
+              "inputType": "number"
+            },
+            {
+              "type": "kendo-ui-mobile:field",
+              "name": "widthOfFabric",
+              "title": "Width of fabric",
+              "inputType": "number"
+            },
+            {
+              "type": "kendo-ui-mobile:field",
+              "name": "unitswitch",
+              "title": "inches (ON for mm)",
+              "inputType": "switch"
+            },
+            {
+              "type": "kendo-ui-mobile:field",
+              "name": "required",
+              "title": "Required",
+              "inputType": "group-separator"
+            },
+            {
+              "type": "kendo-ui-mobile:field",
+              "name": "optional",
+              "title": "Optional",
+              "inputType": "group-separator"
+            },
+            {
+              "type": "kendo-ui-mobile:field",
+              "name": "horizontal",
+              "title": "Horizontal repeat",
+              "inputType": "number"
+            },
+            {
+              "type": "kendo-ui-mobile:field",
+              "name": "vertical",
+              "title": "Vertical repeat",
+              "inputType": "number"
+            },
+            {
+              "type": "kendo-ui-mobile:field",
+              "name": "edgeAllowance",
+              "title": "Edge allowance",
+              "inputType": "number"
+            },
+            {
+              "type": "kendo-ui-mobile:field",
+              "name": "shadeStyle",
+              "title": "Shade Style Desired",
+              "inputType": "dropdownlist"
+            }
+          ],
+          "name": "calculatorModel",
+          "submitButton": "Calculate",
+          "cancelButton": "Reset"
+        }
+      ],
+      "title": "Calculator",
+      "addToNavigation": true,
+      "icon": "mostrecent"
+    },
+    {
+      "type": "kendo-ui-mobile:view",
+      "name": "videos",
+      "components": [],
+      "title": "Videos",
+      "addToNavigation": true,
+      "icon": "camera"
+    },
+    {
+      "type": "kendo-ui-mobile:view",
+      "name": "sailrite",
+      "components": [],
+      "title": "Sailrite",
+      "addToNavigation": true,
+      "icon": "globe"
+    }
+  ],
+  "dataProviders": [],
+  "name": "kendoUiMobileApp",
+  "navigation": "tabstrip",
+  "view": "homeView",
+  "transition": "slide",
+  "skin": "flat"
 }
